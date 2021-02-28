@@ -1,0 +1,36 @@
+@media (max-width: 560px) {
+  .card-wrapper {
+    height: 400px;
+  }
+  .card {
+    padding: 20px 10px;
+  }
+
+  .left-card {
+    display: none;
+  }
+
+  .spinner {
+    top: 30px;
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 375px) {
+  .card-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .card {
+    padding: 30px 10px;
+  }
+
+  .card-inner {
+    width: 100%;
+  }
+
+  .card-inner input[type="text"] {
+    width: 100%;
+  }
+}

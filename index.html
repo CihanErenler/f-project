@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" media=" (max-width:600px)" href="media.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="spinner"></div>
+      <div class="card-wrapper">
+        <!-- Left card starts here-->
+        <div class="left-card">
+          <div class="left-inner">
+            <i class="far fa-envelope"></i>
+            <h3>Benefits of newsletter</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+              tempora officia dignissimos magni nesciunt! Esse soluta quasi
+            </p>
+          </div>
+        </div>
+        <!-- Left card ends here-->
+
+        <!-- Right card starts here-->
+        <div class="card">
+          <div class="card-inner">
+            <h1>Subscribe Our Newsletter</h1>
+            <form>
+              <div class="form-group">
+                <input type="text" name="name" id="name" placeholder="Name" />
+              </div>
+
+              <div class="form-group" id="email-group">
+                <input type="text" name="name" id="email" placeholder="Email" />
+                <!-- Invalid warning comes here -->
+              </div>
+
+              <!-- Custom select menu starts here -->
+              <div class="custom-select-wrapper">
+                <div class="custom-select">
+                  <div class="custom-select-display">
+                    <span>Topic</span>
+                    <i class="fas fa-chevron-up"></i>
+                  </div>
+                  <div class="custom-options">
+                    <span class="custom-option selected">Topic</span>
+                    <span class="custom-option" data-value="security"
+                      >Security</span
+                    >
+                    <span class="custom-option" data-value="technology"
+                      >Technology</span
+                    >
+                    <span class="custom-option" data-value="internet"
+                      >Internet</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Custom select menu ends here -->
+
+              <!-- Submit button -->
+              <button id="submit" class="btn">Subscribe</button>
+
+              <!-- Checkboxes start here -->
+              <label class="check-container">
+                <input id="terms" type="checkbox" />
+                <span class="checkbox"></span>
+                <a href="#">Terms</a> of use confirmation
+              </label>
+
+              <label class="check-container">
+                <input id="policy" type="checkbox" />
+                <span class="checkbox"></span>
+                <a href="#">Privacy policy</a> confirmation
+              </label>
+              <!-- Checkboxes end here -->
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
