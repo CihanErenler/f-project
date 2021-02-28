@@ -9,9 +9,9 @@ const spinner = document.querySelector(".spinner");
 
 //RESOURCES THAT USED IN THE PROJECT
 // 1 - JavaScript
-// 1 - Html
-// 1 - Css
-// 1 - Font awesome
+// 2 - Html
+// 3 - Css
+// 4 - Font awesome
 
 // IMPORTANT
 // All text inputs set to focusout for eventlistener. So you will see the result after you click some where outside of the input field.
